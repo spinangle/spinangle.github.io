@@ -61,6 +61,17 @@
             <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
         </tr>
     </table>
+     <style>
+        #photos img {
+            filter: grayscale(100%);
+            transition: filter 0.5s ease-in-out, transform 0.5s ease-in-out;
+        }
+    
+        #photos img:hover {
+            filter: grayscale(0%);
+            transform: scale(1.1);
+        }
+    </style>
     <div id="work">
         <h1>work</h1>
         <div id="photos">
